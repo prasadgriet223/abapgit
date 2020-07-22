@@ -1,0 +1,18 @@
+CLASS ztestro DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    interfaces if_oo_adt_classrun.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ztestro IMPLEMENTATION.
+METHOD IF_OO_ADT_CLASSRUN~MAIN.
+  out->write('Hello world!').
+  ENDMETHOD.
+ENDCLASS.
